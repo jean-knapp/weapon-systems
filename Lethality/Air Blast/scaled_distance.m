@@ -1,8 +1,6 @@
 %% Scaled distance
 % Returns the scaled distance.
 %
-% Valid for cylindric metal cases. Based on the Hutchinson equation.
-%
 % *Author:* Jean Knapp
 %
 % *Date:* 2022-09-06
