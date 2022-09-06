@@ -1,4 +1,4 @@
-%% Scaled distance
+%% Scaled distance - Inverse function
 % Returns the actual distance given a scaled distance.
 %
 % *Author:* Jean Knapp
