@@ -1,4 +1,4 @@
-%% SSPRECT
+%% Single Shot Probability (Rectangle)
 % Returns the probability that a single shot fired at a target will hit
 % that target within a given range and deflection.
 %
@@ -24,7 +24,7 @@
 
 %% Implementation
 
-function y = ssprect(x, y, dep, rep)
+function y = single_shot_probability_rect(x, y, dep, rep)
 
     y = erf(0.6745 * x / (2*sqrt(2)*dep)) * erf(0.6745 * y / (2*sqrt(2)*rep));
 

@@ -1,4 +1,4 @@
-%% SSPCIRC
+%% Single Shot Probability (Circle)
 % Returns the probability that a single shot fired at a target will hit
 % that target within a given radius.
 %
@@ -21,7 +21,7 @@
 
 %% Implementation
 
-function y = sspcirc(x, cep)
+function y = single_shot_probability_circ(x, cep)
 
     y = 1 - exp(log(0.5) * (x / cep)^2);
 
