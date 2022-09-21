@@ -8,12 +8,12 @@
 
 %% Inputs
 % 
-% * *range*   The effective range.
+% * *mae:*    The mean area of effectiveness.
 % 
 
 %% Outputs
 %
-% * *mae:*    The mean area of effectiveness.
+% * *range*   The effective range.
 %
 
 %% Implementation
